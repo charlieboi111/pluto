@@ -1,0 +1,54 @@
+body {
+  background: burlywood;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+.headset {
+    width: 200px;
+    height: 45vh;
+    border-radius: 5px;
+    position: relative;
+    top: -210;
+    object-fit: contain;
+    object-fit: cover;
+    margin-top: 450px;
+    margin-left: 10px;
+    margin: 50px
+}
+
+.hero {
+    text-align: center;
+    position: relative;
+    font-family: Arial;
+}
+
+.counter {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.box {
+    background-color: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.box span {
+    font-size: 30px;
+}
+
+.box p {
+    margin: 0;
+}
